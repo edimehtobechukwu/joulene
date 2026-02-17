@@ -3,7 +3,7 @@
 
 Joulene is a cutting-edge energy technology company dedicated to solving the climate emergency through next-generation sustainable battery solutions.
 
-Moving beyond standard lithium-ion technology, Joulene creates high-performance systems designed for mission-critical applications where failure is not an option—powering the future of Aviation, Space, and Marine industries.
+Moving beyond standard lithium-ion technology, Joulene creates high-performance systems designed for mission-critical applications where failure is not an option powering the future of Aviation, Space, and Marine industries.
 
 Key Technology Breakthroughs:
 
