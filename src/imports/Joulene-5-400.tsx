@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { RotatingCubes } from "../app/components/RotatingCubes";
 import svgPaths from "./svg-a9bgsdw16j";
-const imgImageEvChassis = "https://placehold.co/600x400/png";
-const imgImage = "https://placehold.co/600x400/png";
-const imgImage1 = "https://placehold.co/600x400/png";
-const imgImage2 = "https://placehold.co/600x400/png";
-const imgImage3 = "https://placehold.co/600x400/png";
-const imgHttpsLottiefilesComAnimationsCubeAnimatorOs7C3VVsqo = "https://placehold.co/100x100/png";
+import imgImageEvChassis from "../assets/ab54db09bc6df0e4d5160b30a09bef15b8290978.png";
+import imgImage from "../assets/37fc0d2254dba6933d75460b5735ecd33603d555.png";
+import imgImage1 from "../assets/17e8a87c993403cd7360a98f2d2b1386ef66540c.png";
+import imgImage2 from "../assets/a3dbbbd73da540d4cd3fd70066c81097b9c00af1.png";
+import imgImage3 from "../assets/ed305a4c7e26604bf6b3194ea3dd4232ad4bb8d1.png";
+import imgHttpsLottiefilesComAnimationsCubeAnimatorOs7C3VVsqo from "../assets/0ea0327d93ceb10a15541a091aaef796a22302cf.png";
 
 function Container() {
   return (
