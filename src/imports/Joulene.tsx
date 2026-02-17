@@ -397,7 +397,7 @@ function Superscript() {
 
 function Heading3() {
   return (
-    <div className="absolute h-[28px] left-0 top-0 w-[654px]" data-name="Heading 4">
+    <div className="relative h-[28px] w-[654px]" data-name="Heading 4">
       <p className="absolute font-['Oswald:Bold',sans-serif] font-bold leading-[28px] left-0 text-[#0f1517] text-[18px] top-px">Solid electrolytes</p>
       <Superscript />
     </div>
@@ -406,8 +406,8 @@ function Heading3() {
 
 function Paragraph1() {
   return (
-    <div className="absolute h-[20px] left-0 top-[36px] w-[320px]" data-name="Paragraph">
-      <p className="absolute font-['Oswald:Regular',sans-serif] font-normal leading-[20px] left-0 text-[#4a5565] text-[14px] top-0">Non-flammable, non-volatile, high thermal stability and safety.</p>
+    <div className="relative w-[320px] mt-[8px]" data-name="Paragraph">
+      <p className="font-['Oswald:Regular',sans-serif] font-normal leading-[20px] text-[#4a5565] text-[14px]">Non-flammable, non-volatile, high thermal stability and safety.</p>
     </div>
   );
 }
@@ -416,17 +416,17 @@ function Link() {
   return (
     <div
       onClick={() => document.getElementById('impact')?.scrollIntoView({ behavior: 'smooth' })}
-      className="absolute h-[16px] left-0 top-[64px] w-[100.453px] cursor-pointer hover:opacity-70 transition-opacity"
+      className="relative w-[100.453px] cursor-pointer hover:opacity-70 transition-opacity mt-[8px]"
       data-name="Link"
     >
-      <p className="absolute decoration-solid font-['Oswald:Bold',sans-serif] font-bold leading-[16px] left-0 text-[#0f1517] text-[12px] top-0 underline">Read the whitepaper</p>
+      <p className="decoration-solid font-['Oswald:Bold',sans-serif] font-bold leading-[16px] text-[#0f1517] text-[12px] underline">Read the whitepaper</p>
     </div>
   );
 }
 
 function Container20() {
   return (
-    <div className="h-[82px] relative shrink-0 w-full" data-name="Container">
+    <div className="flex flex-col relative shrink-0 w-full" data-name="Container">
       <Heading3 />
       <Paragraph1 />
       <Link />
@@ -445,7 +445,7 @@ function Superscript1() {
 
 function Heading4() {
   return (
-    <div className="absolute h-[28px] left-0 top-0 w-[654px]" data-name="Heading 4">
+    <div className="relative h-[28px] w-[654px]" data-name="Heading 4">
       <p className="absolute font-['Oswald:Bold',sans-serif] font-bold leading-[28px] left-0 text-[#0f1517] text-[18px] top-px">Metallic anode</p>
       <Superscript1 />
     </div>
@@ -454,8 +454,8 @@ function Heading4() {
 
 function Paragraph2() {
   return (
-    <div className="absolute h-[20px] left-0 top-[36px] w-[320px]" data-name="Paragraph">
-      <p className="absolute font-['Oswald:Regular',sans-serif] font-normal leading-[20px] left-0 text-[#4a5565] text-[14px] top-0">Enables ultra-high energy density for long-range applications.</p>
+    <div className="relative w-[320px] mt-[8px]" data-name="Paragraph">
+      <p className="font-['Oswald:Regular',sans-serif] font-normal leading-[20px] text-[#4a5565] text-[14px]">Enables ultra-high energy density for long-range applications.</p>
     </div>
   );
 }
@@ -464,17 +464,17 @@ function Link1() {
   return (
     <div
       onClick={() => document.getElementById('technology')?.scrollIntoView({ behavior: 'smooth' })}
-      className="absolute h-[16px] left-0 top-[64px] w-[72.672px] cursor-pointer hover:opacity-70 transition-opacity"
+      className="relative w-[72.672px] cursor-pointer hover:opacity-70 transition-opacity mt-[8px]"
       data-name="Link"
     >
-      <p className="absolute decoration-solid font-['Oswald:Bold',sans-serif] font-bold leading-[16px] left-0 text-[#0f1517] text-[12px] top-0 underline">See tech specs</p>
+      <p className="decoration-solid font-['Oswald:Bold',sans-serif] font-bold leading-[16px] text-[#0f1517] text-[12px] underline">See tech specs</p>
     </div>
   );
 }
 
 function Container21() {
   return (
-    <div className="h-[82px] relative shrink-0 w-full" data-name="Container">
+    <div className="flex flex-col relative shrink-0 w-full" data-name="Container">
       <Heading4 />
       <Paragraph2 />
       <Link1 />
